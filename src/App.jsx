@@ -1,6 +1,7 @@
 import "./App.css";
-import Header from "./componentes/Header.jsx";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import Header from "./componentes/Header.jsx";
+import SeccionUno from "./componentes/SeccionUno.jsx";
 
 function App() {
   return (
@@ -14,11 +15,9 @@ function App() {
         }
         btnText={"MÁS..."}
       />
+      <SeccionUno />
     </div>
   );
 }
 
 export default App;
-/* 
-        
-        */

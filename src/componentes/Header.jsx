@@ -1,5 +1,4 @@
 import "../stylesheets/Header.css";
-//import {FaCloud} from "react-icons/fa";
 function Header({titulo, parrafo, btnText}) {
   return (
     <div className="container cabecera">
@@ -13,6 +12,3 @@ function Header({titulo, parrafo, btnText}) {
   );
 }
 export default Header;
-/*
-
-       */
