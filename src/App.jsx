@@ -1,7 +1,15 @@
+// Estilos
 import "./App.css";
+// Iconos
 import "bootstrap-icons/font/bootstrap-icons.css";
+// Imagenes
+import quienesSomos from "./imagenes/quienes-somos.jpg";
+// Componentes
 import Header from "./componentes/Header.jsx";
-import SeccionUno from "./componentes/SeccionUno.jsx";
+import SeccionUno, {
+  SeccionUnoText,
+  SeccionUnoImage,
+} from "./componentes/SeccionUno.jsx";
 
 function App() {
   return (
@@ -15,7 +23,15 @@ function App() {
         }
         btnText={"MÁS..."}
       />
-      <SeccionUno />
+      <SeccionUno>
+        <SeccionUnoText
+          titulo={"Este es un titulo Este es un titulo"}
+          parrafo={
+            "este es un texto de ejemplo este es un texto de ejemplo este es un texto de ejemplo este es un texto de ejemplo"
+          }
+        />
+        <SeccionUnoImage alt={"nosotros"} imagen={quienesSomos} />
+      </SeccionUno>
     </div>
   );
 }

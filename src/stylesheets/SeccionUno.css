@@ -1,4 +1,41 @@
+/* Contenedor */
 .seccion-uno-contenedor {
   background-color: #fff;
-  height: 370px;
+  /* height: 370px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Textos */
+.seccion-uno-texto {
+  /* border: 0.5px solid red; */
+  width: 90vw;
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccion-uno-texto h2 {
+  font-size: 23px;
+  font-weight: 200;
+  justify-content: center;
+  margin-top: 40px;
+}
+hr {
+  width: 30%;
+  margin-top: 20px; /*no tocar*/
+  margin-bottom: 20px; /*no tocar*/
+}
+.seccion-uno-texto p {
+  text-align: center;
+  line-height: 165%;
+  margin-bottom: 30px;
+}
+/* Imagen */
+.seccion-uno-imagen {
+  width: 86vw;
+  border-radius: 4px;
+  margin-bottom: 45px;
 }
