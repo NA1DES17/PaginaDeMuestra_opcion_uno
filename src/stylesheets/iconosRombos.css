@@ -1,0 +1,15 @@
+.contenedor-icono {
+  border: solid 1px black;
+  border-radius: 4px;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin-top: 60px;
+}
+.icono {
+  font-size: 60px;
+  transform: rotate(-45deg);
+}
